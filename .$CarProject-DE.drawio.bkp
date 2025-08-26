@@ -1,0 +1,71 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5" pages="2">
+  <diagram name="Page-1" id="iDl7t95xoPlIxJQl8Gxv">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mpgr3ys91DUYugkBP60v-1" value="Databricks" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="210" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mpgr3ys91DUYugkBP60v-2" value="ADLS Gen2" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="590" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mpgr3ys91DUYugkBP60v-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;" parent="1" source="Mpgr3ys91DUYugkBP60v-1" target="Mpgr3ys91DUYugkBP60v-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408.028" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mpgr3ys91DUYugkBP60v-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" parent="1" target="Mpgr3ys91DUYugkBP60v-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="478" y="210" as="sourcePoint" />
+            <mxPoint x="540" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mpgr3ys91DUYugkBP60v-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;" parent="1" source="Mpgr3ys91DUYugkBP60v-7" target="Mpgr3ys91DUYugkBP60v-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mpgr3ys91DUYugkBP60v-7" value="Access Connector" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="400" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mpgr3ys91DUYugkBP60v-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.578;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;" parent="1" source="Mpgr3ys91DUYugkBP60v-7" target="Mpgr3ys91DUYugkBP60v-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mpgr3ys91DUYugkBP60v-11" value="Access connector will help to use data stoired in ADLS&lt;div&gt;Access connector will dump the data inot Databricks&lt;/div&gt;&lt;div&gt;we need to assign access connector id to databricks&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="398" y="268" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pj3vH8b8jGBsIgOZFWZI" name="HLD">
+    <mxGraphModel dx="794" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RkvCRGynmpZ0WfegEshJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RkvCRGynmpZ0WfegEshJ-1" target="RkvCRGynmpZ0WfegEshJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvCRGynmpZ0WfegEshJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="RkvCRGynmpZ0WfegEshJ-1" target="RkvCRGynmpZ0WfegEshJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvCRGynmpZ0WfegEshJ-1" value="Azure Data Factory" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvCRGynmpZ0WfegEshJ-2" value="Github" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="20" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvCRGynmpZ0WfegEshJ-3" value="Azure SQL DB" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="510" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvCRGynmpZ0WfegEshJ-6" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvCRGynmpZ0WfegEshJ-7" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="350" y="147" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="RkvCRGynmpZ0WfegEshJ-8" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="610" y="164.33" width="38" height="50.67" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
